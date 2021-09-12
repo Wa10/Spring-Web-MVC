@@ -1,4 +1,4 @@
-# Spring-Web-MVC-Basico
+# Spring-Web-MVC
 Cadastro de Jedi usando Spring Web para aprendizado básico do spring + Thymeleaf. 
 
 + Projeto básico realizado para o Bootcamp da DIO Sobre Spring Web MVC
