@@ -9,17 +9,18 @@ Tecnologias utilizadas:
 * Banco H2
 * JPA
 * Validation
+* Spring Data JPA
+* Postman
+* Gradle Project
 
 ## Spring Web MVC
+Após executar startar a aplicação, basta apenas abrir o seguinte endereço para o template de criação de template:
 
-+ MVC - Model, View and Controller
+```
+http://localhost:8080/jedi
+```
 
-	+ View = https://www.thymeleaf.org/
+## Documentação do CRUD via versão no padraão REST
+localhost:8080/api/JEDI
+Documentação postman: = https://documenter.getpostman.com/view/14662521/U16krkYf
 
-+ Start.io = Web e Thymeleaf
-
-+ @Controller
-+ @Repository
-+ @Service
-+ ModelAndView VS Model
-+ EL ${}
