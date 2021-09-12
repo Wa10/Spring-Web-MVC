@@ -20,7 +20,7 @@ Após executar startar a aplicação, basta apenas abrir o seguinte endereço pa
 http://localhost:8080/jedi
 ```
 
-## Documentação do CRUD via versão no padraão REST
-localhost:8080/api/JEDI
+## Documentação do CRUD via versão no padrão REST
+localhost:8080/api/jedi
 Documentação postman: = https://documenter.getpostman.com/view/14662521/U16krkYf
 
