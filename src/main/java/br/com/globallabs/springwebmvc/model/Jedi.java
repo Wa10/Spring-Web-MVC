@@ -4,13 +4,13 @@ import javax.validation.constraints.*;
 
 public class Jedi {
 
-    @NotBlank
+    @NotBlank(message = "Name cannot be blank")
     private String name;
 
-    @NotBlank
+    @Size(max = 20, message = "Last Name must not have more than 20 letters")
     private String lastName;
 
-    public Jedi(String name, String lastName) {
+    public Jedi(final String name, final String lastName) {
         this.name = name;
         this.lastName = lastName;
     }
@@ -22,7 +22,7 @@ public class Jedi {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
@@ -30,7 +30,7 @@ public class Jedi {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 }

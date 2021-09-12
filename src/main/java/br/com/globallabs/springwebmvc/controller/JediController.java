@@ -4,6 +4,7 @@ import br.com.globallabs.springwebmvc.model.Jedi;
 import br.com.globallabs.springwebmvc.repository.JediRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -31,12 +32,10 @@ public class JediController {
     }
 
     @GetMapping("/new-jedi")
-    public ModelAndView newJedi(){
-        final ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("new-jedi");
+    public String createJedi(Model model){
 
-        modelAndView.addObject("jedi", new Jedi());
-        return modelAndView;
+        model.addAttribute("jedi", new Jedi());
+        return "new-jedi";
     }
 
     @PostMapping("/jedi")
