@@ -14,7 +14,7 @@ Tecnologias utilizadas:
 * Gradle Project
 
 ## Spring Web MVC
-Após executar startar a aplicação, basta apenas abrir o seguinte endereço para o template de criação de template:
+Após executar a aplicação, basta apenas abrir o seguinte endereço para o formulario de criação de jedi:
 
 ```
 http://localhost:8080/jedi
